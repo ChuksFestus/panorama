@@ -1,0 +1,63 @@
+---
+name: Button
+menu: Components
+---
+
+import { Playground, PropsTable } from "docz";
+import { Button } from "./";
+
+# Button
+
+Buttons make common actions more obvious and help users more easily perform them. Buttons use labels and sometimes icons to communicate the action that will occur when the user touches them.
+
+## Basic usage
+
+<Playground>
+  <Button>Click me</Button>
+</Playground>
+
+## Properties
+
+<PropsTable of={Button} />
+
+## With different sizes
+
+<Playground>
+  <Button scale="small">Click me</Button>
+  <Button scale="normal">Click me</Button>
+  <Button scale="big">Click me</Button>
+</Playground>
+
+## With different colors
+
+<Playground>
+  <Button kind="blue">Click me</Button>
+  <Button kind="purple">Click me</Button>
+  <Button kind="green">Click me</Button>
+  <Button kind="red">Click me</Button>
+  <Button kind="dark">Click me</Button>
+  <Button kind="default">Click me</Button>
+</Playground>
+
+## Outlined
+
+<Playground>
+  <Button kind="blue" outline>
+    Click me
+  </Button>
+  <Button kind="green" outline>
+    Click me
+  </Button>
+  <Button kind="purple" outline>
+    Click me
+  </Button>
+  <Button kind="red" outline>
+    Click me
+  </Button>
+  <Button kind="dark" outline>
+    Click me
+  </Button>
+  <Button kind="default" outline>
+    Click me
+  </Button>
+</Playground>

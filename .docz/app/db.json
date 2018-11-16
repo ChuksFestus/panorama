@@ -1,0 +1,89 @@
+{
+  "config": {
+    "title": "Panorama",
+    "description": "My awesome app using docz",
+    "themeConfig": {
+      "mode": "dark",
+      "styles": {
+        "body": {
+          "fontFamily": "'Source Sans Pro', Helvetica, sans-serif",
+          "fontSize": 16,
+          "lineHeight": 1.6
+        },
+        "h1": {
+          "fontFamily": "'Source Sans Pro', Helvetica, sans-serif"
+        },
+        "playground": {
+          "backgroundColor": "#eee"
+        }
+      }
+    },
+    "menu": [],
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true
+  },
+  "entries": {
+    "index.mdx": {
+      "name": "Getting Started",
+      "route": "/",
+      "id": "91149a4106ab27ef746308b41227aca8",
+      "filepath": "index.mdx",
+      "link": null,
+      "slug": "index",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "panorama",
+          "value": "Panorama"
+        }
+      ]
+    },
+    "src/Button/index.mdx": {
+      "name": "Button",
+      "menu": "Components",
+      "id": "89647727e875df04cc5bf278144070b9",
+      "filepath": "src/Button/index.mdx",
+      "link": null,
+      "slug": "src-button-index",
+      "route": "/src-button-index",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "button",
+          "value": "Button"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        },
+        {
+          "depth": 2,
+          "slug": "with-different-sizes",
+          "value": "With different sizes"
+        },
+        {
+          "depth": 2,
+          "slug": "with-different-colors",
+          "value": "With different colors"
+        },
+        {
+          "depth": 2,
+          "slug": "outlined",
+          "value": "Outlined"
+        }
+      ]
+    }
+  }
+}
